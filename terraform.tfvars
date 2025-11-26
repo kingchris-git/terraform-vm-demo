@@ -1,0 +1,6 @@
+resource_group_name = "tf-demo-vm-rg"
+location            = "UK West"
+prefix              = "tfdemo"
+admin_username      = "azureuser"
+vm_size             = "Standard_B2s_v2"
+ssh_public_key_path = "/Users/chris/.ssh/terraform_vm_key.pub"

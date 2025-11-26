@@ -1,0 +1,6 @@
+# ignore .pem and .pfx files anywhere in the repository
+*.pem
+*.pfx
+
+# ignore al .terraform directories
+**/.terraform/
